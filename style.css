@@ -1,0 +1,103 @@
+/*
+Theme Name: btour
+Theme URI: 
+Author: pvt
+Author URI: 
+Description: 
+Version: 1.0
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: btour
+Text Domain: blankslate
+
+*/
+
+ @import url("css/normalize.css");
+ *{margin:0px;padding:0px;box-sizing: border-box;}
+ body {margin: 0px;padding: 0px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;color: #4D4D4F;background-color: #E9EAEE;}
+.container {margin: 0px auto; max-width: 970px;}
+a{text-decoration: none;}
+header{background-color: #FFF;padding-top: 20px;}
+header h1{margin-bottom:0px; margin: 0 0 0 20px;padding-bottom: 15px;}
+header h1 a{color: #006cb7;}
+nav{height: 36px;background-color: #CCE2F1;line-height: 36px;margin-bottom:20px}
+nav ul{text-align: center;padding: 0px;}
+nav ul li{display: inline-block;}
+nav ul li a{color: #006CB7;text-transform: capitalize;}
+nav ul li::after { content: "\2022";color: #006CB7;display: inline-block; font-size: 22px;vertical-align: middle;margin: 0px 5px;}
+nav ul li:last-child::after{content: "";}
+#pvt_main .container{overflow: hidden;}
+#main_left{float: left;width: 22%;background: white;margin-right: 20px;}
+#main_left img{max-width: 100%;width:100%;height: 90px;}
+#main_left h2{color: #006cb7;font-weight: normal;font-size: 20px;border-bottom: 1px solid #d2d4d3;padding: 6px 20px;text-align: center;}
+#main_left ul{}
+#main_left ul li{list-style: none;padding: 20px;border-bottom: 1px solid #d2d4d3;}
+#main_left ul li a{color: #4d4d4f;font-size: 15px;}
+#main_left ul li p{margin-bottom: 10px;}
+#main_right{float: left;width: 56%;}
+#main_right img{max-width: 100%;}
+#main_right article{background: white;padding: 15px;margin-bottom:20px}
+#main_right article h3{font-weight: normal;font-size: 25px;margin-bottom: 20px;}
+#main_right article h3 a{color: #006cb7;}
+#main_right article p{font-size: 14px;margin-bottom:15px}
+#main_right article img{width: 100%;margin-bottom: 15px;height: 247px;}
+#main_right article p.post_meta{color: #afb6c0; font-size: 13px;}
+#cat_tit{color: #4d4d4f;font-size: 1.5em;margin-bottom:20px}
+#pvt_conten h2{font-weight: normal;font-size: 25px;margin-bottom:10px;color:#006cb7}
+#bv_lienquan h2{font-size: 14px;font-weight: bold;color: #4d4d4f;}
+#bv_lienquan ul{padding-left: 30px;}
+#bv_lienquan ul li a{font-size: 14px;color: #4d4d4f;}
+#bv_lienquan ul li a:hover{color: #006cb7;}
+#breadcrumbs{margin-bottom: 10px;}
+#breadcrumbs a{font-size: 13px;color: #939598;}
+.breadcrumb_last{font-size: 13px;color: #939598;}
+#pvt_tag{margin-bottom:10px}
+#pvt_tag a{font-size: 14px;color: #4D4D4F;margin: 0px 0px 5px;display: inline-block;padding: 3px 5px;border: 1px solid #D2D4D3;background-color: #E9EAEE;border-radius: 5px;}
+#pvt_tag a:hover{color: #006CB7;}
+.wp-pagenavi{margin: 10px 0px;text-align: center;}
+.wp-pagenavi a{border-radius: 50%;
+background-color: #949599;border: none !important;
+width: 26px;
+height: 26px;
+line-height: 26px;
+text-align: center;
+color: #FFF;padding: 3px 8px !important;
+margin: 3px;}
+.wp-pagenavi span.current{border-radius: 50%;color: #FFF;border: none !important;
+background-color: #006CB7}
+.wp-pagenavi span.pages{display: none;}
+.wp-pagenavi span{padding: 3px 8px !important;}
+
+
+footer{background: white; text-align: center;height: 24px;line-height: 24px;color: #777;    margin-top: 10px;}
+
+@media screen and (max-width: 970px){
+.container{width:100%}
+#main_right { width: 66%;}
+#main_left{width: 25%;margin: 0px 3%;}
+nav{height:auto}
+}
+
+@media screen and (max-width: 480px){
+#main_left{display:none}
+#main_right { width: 96%;margin: 0px auto;float: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
